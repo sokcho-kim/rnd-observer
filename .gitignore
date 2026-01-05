@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+
+# Azure Functions
+local.settings.json
+.python_packages/
+.func/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# 환경 변수
+.env
+*.env.local
+
+# 데이터
+data/
+
+# 로그
+*.log
