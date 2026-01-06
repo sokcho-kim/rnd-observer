@@ -23,7 +23,7 @@ class TeamsNotifier:
                 headers={"Content-Type": "application/json"},
                 timeout=30,
             )
-            return response.status_code == 200
+            return response.status_code in (200, 202)
 
     def _build_card(self, announcements: List[Announcement]) -> dict:
         """Adaptive Card 형식으로 메시지 생성"""
@@ -118,4 +118,4 @@ class TeamsNotifier:
                 headers={"Content-Type": "application/json"},
                 timeout=30,
             )
-            return response.status_code == 200
+            return response.status_code in (200, 202)

@@ -5,7 +5,19 @@
       "Bash(pip install:*)",
       "Bash(python -m pip install:*)",
       "Bash(python -m playwright:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "WebSearch",
+      "WebFetch(domain:support.microsoft.com)",
+      "Bash(curl:*)",
+      "Bash(dir \"%USERPROFILE%\\\\Pictures\\\\Screenshots\" /b /o-d)",
+      "Bash(dir \"%USERPROFILE%\\\\OneDrive\\\\Pictures\\\\Screenshots\" /b /o-d)",
+      "Bash(dir \"%USERPROFILE%\\\\Pictures\" /b)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(powershell -Command:*)",
+      "WebFetch(domain:www.iris.go.kr)",
+      "WebFetch(domain:www.bizinfo.go.kr)",
+      "WebFetch(domain:www.k-startup.go.kr)"
     ]
   }
 }
